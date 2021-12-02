@@ -14,6 +14,7 @@ public abstract class Flower {
 
     Scanner scanner = new Scanner(System.in);
 
+
     public void getPriceBouquet() {
         System.out.println("Количество цветов в букет? ");
         Scanner scanner = new Scanner(System.in);
