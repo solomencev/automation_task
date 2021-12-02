@@ -14,32 +14,6 @@ public abstract class Flower {
 
     Scanner scanner = new Scanner(System.in);
 
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
-
-
     public void getPriceBouquet() {
         System.out.println("Количество цветов в букет? ");
         Scanner scanner = new Scanner(System.in);
@@ -49,7 +23,4 @@ public abstract class Flower {
             getPriceBouquet();
         } else System.out.println("Букет из "+ count + " " + this.name + " стоит " + this.price * count);
     }
-
-
-
 }
